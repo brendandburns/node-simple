@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: kubernetes-dashboard-gj1r5
+  namespace: kube-system
+spec:
+  containers:
+  - image: brendanburns/node-simple:f74f97c-dirty
+    name: node-simple
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
