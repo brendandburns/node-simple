@@ -1,8 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: kubernetes-dashboard-gj1r5
-  namespace: kube-system
+  name: node-simple
 spec:
   containers:
   - image: brendanburns/node-simple:f74f97c-dirty
