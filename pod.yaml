@@ -4,7 +4,7 @@ metadata:
   name: node-simple
 spec:
   containers:
-  - image: brendanburns/node-simple:f74f97c-dirty
+  - image: brendanburns/node-simple:d78fffd
     name: node-simple
   dnsPolicy: ClusterFirst
   restartPolicy: Always
