@@ -34,7 +34,7 @@
                 "containers": [
                     {
                         "name": "node-simple",
-                        "image": "brendanburns/node-simple:91f5298",
+                        "image": "brendanburns/node-simple:880c3b4",
                         "resources": {},
                         "terminationMessagePath": "/dev/termination-log",
                         "imagePullPolicy": "IfNotPresent"
