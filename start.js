@@ -2,7 +2,7 @@ var http = require('http');
 
 var server = http.createServer(function (request, response) {
   response.writeHead(200, {"Content-Type": "text/plain"});
-  response.end("Hello, goodby world!\n");
+  response.end("<h1>Hello, goodby world!\n</h1>");
   console.log("Request received");
 });
 
